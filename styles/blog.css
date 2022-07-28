@@ -302,6 +302,26 @@ nav .bottom i{
     color: #356EAD;
 }
 
+.allpopular img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.allpopular h2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 212px;
+    margin-top: 54px;
+    margin-bottom: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #356EAD;
+}
+
 
 
 
