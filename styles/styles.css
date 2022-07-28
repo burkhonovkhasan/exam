@@ -15,9 +15,8 @@
 }
 nav .top{
     position: fixed;
-    width: 100%;
+    width: 1366px;
     top: 0%;
-    left: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,4 +233,95 @@ main .right .box .learn a{
 main .right .box .learn i{
     color: #5A98D0;
     cursor: pointer;
+}
+
+.project .top{
+display: flex;
+justify-content: center;
+}
+.project .top h2{
+    width: 227px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    color: #1F3F68;
+    margin-right: 93px;
+}
+.project .top p{
+    width: 540px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+
+}
+.project .center{
+    background-image: url(../imges/Mask\ Group.png);
+    width: 982px;
+    height: 424px;
+    text-align: right;
+    margin-top: 96px;
+    margin-bottom: 86px;
+}
+.project .center h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-right: 65px;
+}
+.project .center p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-right: 66px;
+    opacity: 0.8;
+}
+.project .bottom{
+    display: flex;
+    justify-content: center;
+}
+.project .bottom .left{
+    width: 422px;
+    height: 417px;
+    background-image: url(../imges/Mask\ Group2.png);
+    margin-right: 96px;
+}
+.project .bottom .left h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+.project .bottom .left p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 46px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-left: 32px;
+}
+.project .bottom .right{
+    width: 422px;
+    height: 417px;
+    background-image: url(../imges/Mask\ Group3.png);
+}
+.project .bottom .right h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+.project .bottom .right p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 46px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-left: 32px;
 }
