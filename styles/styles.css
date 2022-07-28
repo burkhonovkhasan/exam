@@ -114,3 +114,124 @@ nav .top ul .active{
     color: #5A98D0;
     border-color: #5A98D0;
 }
+main{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+main .left{
+    margin-right: 100px;
+}
+main .left .box{
+    margin-top: 158px;
+}
+main .right .box{
+    margin-bottom: 100px;
+}
+main .left h2{
+    width: 358px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    color: #316099;
+    margin-left: -70px;
+}
+main .left .box{
+    width: 380px;
+    height: 525px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    text-align: center;
+}
+main .left .box img{
+    margin: 48px 124px 56px 74px;
+}
+main .left .box h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    
+    width: 257px;
+    margin: 0 75px 0 48px;
+    margin-bottom: 16px;
+}
+main .left .box p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    
+    width: 284px;
+    margin: 0 48px;
+    text-align: left;
+    margin-bottom: 32px;
+
+}
+main .left .box .learn{
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    
+}
+main .left .box .learn a{
+    margin-right: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #5A98D0;
+}
+main .left .box .learn i{
+    color: #5A98D0;
+    cursor: pointer;
+}
+
+
+
+main .right .box{
+    width: 380px;
+    height: 525px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    text-align: center;
+}
+main .right .box img{
+    margin: -10px 124px 56px 74px;
+}
+main .right .box h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    
+    width: 257px;
+    margin: 0 75px 0 48px;
+    margin-bottom: 16px;
+}
+main .right .box p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    
+    width: 284px;
+    margin: 0 48px;
+    text-align: left;
+    margin-bottom: 32px;
+
+}
+main .right .box .learn{
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    
+}
+main .right .box .learn a{
+    margin-right: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #5A98D0;
+}
+main .right .box .learn i{
+    color: #5A98D0;
+    cursor: pointer;
+}
