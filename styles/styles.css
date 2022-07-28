@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav .top{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+.top .logo{
+    margin-left: 83px;
+}
+.top ul{
+    margin-right: 87px;
+    display: flex;
+}
+.top ul a{
+    margin-right: 30px;
+    
+}
+.top ul a:last-child{
+    margin-right: 0%;
+}
+.top ul a li{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1F3F68;
+    transition: 0.5s; 
+}
+nav .top ul .active{
+    color: rgb(124, 84, 8);
+}
+.top ul a li:hover{
+    color: rgb(7, 243, 223);
+}
+.center{
+    background:url(../imges/nav\ bac.png);
+    width: 1360px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.center h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 44px;
+    line-height: 74px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.home{
+    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    margin-top: 160px;
+}
+.home .box{
+    display: flex;
+    justify-content: center;
+
+}
+.home .box .left{
+    margin-left: 212px;
+    margin-top: 80px;
+}
+.home .box .right{
+    margin-left: -120px;
+}
+.home .box .left h1{
+    width: 510px;
+    font-size: 50px;
+    line-height: 64px;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+.home .box .left p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    width: 425px;
+    margin-bottom: 71px;
+}
+.home .box .left button{
+    width: 220px;
+    height: 56px;
+    border-radius: 10px;
+    background: #5A98D0;
+    border-color: #5A98D0;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.home .box .left button:hover{
+    background: #FFFFFF;
+    color: #5A98D0;
+    border-color: #5A98D0;
+}
