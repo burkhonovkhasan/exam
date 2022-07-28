@@ -95,6 +95,7 @@ nav .bottom{
     display: flex;
     justify-content: center;
     margin-top: 56px;
+    margin-bottom: 56px;
 }
 nav .bottom i{
     position: absolute;
@@ -102,5 +103,206 @@ nav .bottom i{
     left: 235px;
     color: #1F3F68;
 }
+
+.popular h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #356EAD;
+    margin-left: 214px;
+    margin-bottom: 32px;
+}
+.popular .section{
+    margin: auto;
+    width: 982px;
+    display: flex;
+}
+.popular .section .left{
+    margin-right: 20px;
+}
+.popular .section .left h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #356EAD;
+    width: 380px;
+    margin-bottom: 32px;
+}
+.popular .section .left .text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #356EAD;
+    width: 380px;
+    margin-bottom: 30px;
+}
+.popular .section .left .box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.popular .section .left .box p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #356EAD;
+    margin-right: 101px;
+
+}
+.popular .section .left .box p span{
+    color: #99A5B5;
+}
+.popular .section .left .box i{
+    font-size: 20px;
+    margin-right: 38px;
+    color: #356EAD;
+    cursor: pointer;
+}
+.popular .section .left .box i:last-child{
+    margin-right: 0%;
+}
+.popular .photos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.popular .photos .left{
+    width: 298px;
+    margin-right: 30px;
+    text-align: left;
+}
+.popular .photos .left img{
+    margin-bottom: 16px;
+}
+.popular .photos .center img{
+    margin-bottom: 16px;
+}
+.popular .photos .right img{
+    margin-bottom: 16px;
+}
+.popular .photos .center{
+    width: 298px;
+    margin-right: 30px;
+    text-align: left;
+}
+.popular .photos .right{
+    width: 298px;
+}
+.popular .photos .left h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+.popular .photos .center h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+.popular .photos .right h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+.popular .photos .right p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+.popular .photos .center p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+.popular .photos .left p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+.popular .photos .left p span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.popular .photos .center p span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.popular .photos .right p span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.popular .photos .right .box{
+    display: flex;
+    align-items: center;
+}
+.popular .photos .center .box{
+    display: flex;
+    align-items: center;
+}
+.popular .photos .left .box{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.popular .photos .right .box p{
+    margin-right: 90px;
+}
+.popular .photos .center .box p{
+    margin-right: 90px;
+}
+.popular .photos .left .box p{
+    margin-right: 90px;
+}
+
+
+.popular .photos .left .box .copy{
+    margin-right: 38px;
+}
+.popular .photos .right .box .copy{
+    margin-right: 38px;
+}
+.popular .photos .center .box .copy{
+    margin-right: 38px;
+}
+.popular .photos .center .box i{
+    font-size: 20px;
+    color: #356EAD;
+}
+.popular .photos .right .box i{
+    font-size: 20px;
+    color: #356EAD;
+}
+.popular .photos .left .box i{
+    font-size: 20px;
+    color: #356EAD;
+}
+
+
+
 
 
